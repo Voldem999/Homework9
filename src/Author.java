@@ -12,4 +12,11 @@ public class Author {
     public void setFullName(String fullName) {
         this.fullName = fullName;
     }
+
+    @Override
+    public String toString() {
+        return "автор - " + fullName;
+    }
+
 }
+//("Sherlock Holmes", 1892, new Author("sir Arthur Conan Doyle"))
